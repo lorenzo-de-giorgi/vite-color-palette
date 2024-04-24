@@ -26,9 +26,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.color-container {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 20px;
-}
+    .color-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 20px;
+    }
+
+    .box {
+        height: 200px;
+        width: 500px;
+        border: 1px solid black;
+        margin: 50px auto;
+    }
 </style>
